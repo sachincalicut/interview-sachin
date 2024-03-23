@@ -1,0 +1,88 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .chart-scroll {
+    overflow-x: scroll;
+  }
+  .otp-card h2 {
+    font-size: 17px;
+  }
+  .otp-card button {
+    font-size: 14px;
+    padding: 7px 35px;
+    border-radius: 15px;
+  }
+  .otp-card {
+    padding: 1em;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  .otp-card-input {
+    gap: 12px;
+    margin: 23px 0;
+    display: grid;
+  }
+  .otp-card-input input {
+    width: 36px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  .form-status{
+    padding: 0px 31px;
+  }
+  .btn{
+    width:100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .chart-scroll {
+    overflow-x: scroll;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .chart-scroll {
+    overflow-x: scroll;
+  }
+  .home_content {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 65px;
+  }
+  .sidebar {
+    z-index: 99;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .chart-scroll {
+    overflow-x: hidden;
+  }
+  .form-status{
+    padding: 0px 31px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .home_content {
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 78px);
+    left: 78px;
+  }
+  .sidebar {
+    position: fixed;
+  }
+  .chart-scroll {
+    overflow-x: hidden;
+  }
+  .form-status{
+    padding: 0px 31px;
+  }
+}
