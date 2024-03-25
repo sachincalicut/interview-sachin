@@ -8,18 +8,21 @@
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body class="otp-container">
+    <div class="form">
     <div class="otp-card">
       <h2>OTP Verify</h2>
-      <h3>Code has been sent to ****87</h3>
+      <h3>Please type verification sent to <span id="mobile">xxxx</span> </h3>Your OTP will expire<span id="expiration">30s</span>
       <div class="otp-card-input">
-        <input type="text" maxlength="1" autofocus />
-        <input type="text" maxlength="1" />
-        <input type="text" maxlength="1" />
-        <input type="text" maxlength="1" />
-        <input type="text" maxlength="1" />
+        <input type="text" autofocus maxlength="1"/>
+        <input type="text" disabled maxlength="1"/>
+        <input type="text" disabled maxlength="1"/>
+        <input type="text" disabled maxlength="1"/>
+       
       </div>
-      <p>Didn't get the otp<a href="#">Resend</a></p>
-      <button disabled>Verify...</button>
+      <p>Didn't get the otp?<a href="javascript:void(0)" id="request" onclick="genOTP()">Try Again</a></p>
+      <button type="button">Verify...</button>
     </div>
+  </div>
+  <script src="js/otp-gen.js"></script>
   </body>
 </html>
