@@ -607,3 +607,17 @@ body {
   padding: 0px 5px;
   font-weight: bold;
 }
+
+.btn-login{
+  margin-top: 18px;
+  padding: 8px 9px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  background: #eee;
+  border-radius: 11px;
+  color: #2d2c2c;
+  font-weight: 600;
+
+}
