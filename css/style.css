@@ -554,9 +554,10 @@ body {
   color: #a8bbbf;
 }
 .login-container .form-input .bx-low-vision {
-  right: 0px;
+  right: 12px;
   font-size: 18px;
   cursor: pointer;
+  color: #a8bbbf;
 }
 .login-container .font-sm {
   font-size: 13px;
