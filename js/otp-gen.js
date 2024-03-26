@@ -70,7 +70,7 @@ inputs.forEach((input, index) => {
 });
 
 window.addEventListener("load", () => {
-  let x = prompt("Please enter you mobile to verify your account....");
+  let x = prompt("Please enter you mobile to verify your account...");
   if (x) {
     mobile.innerText = x;
     genOTP();
