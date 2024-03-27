@@ -52,8 +52,8 @@ inputs.forEach((input, index) => {
       nextInput.focus();
     }
     if (e.key === "Back space") {
-      inputs.forEach((input, index1) => {
-        if (index <= index1 && prevInput) {
+      inputs.forEach((input, index) => {
+        if (index <= index && prevInput) {
           input.setAttribute("disabled", true);
           prevInput.focus();
           prevInput.value = "";
